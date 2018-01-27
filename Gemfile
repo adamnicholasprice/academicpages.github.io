@@ -9,3 +9,7 @@ gem 'html_compressor'           #Used to minify our HTML at build time
 gem 'sass'
 gem 'image_optim'               #Optimizes our images
 gem 'image_optim_pack'          #Tools that image_optim uses
+gem 'octopress', '~> 3.0.0.rc.15'
+gem 'rake'
+gem 'octopress-deploy'
+gem 'aws-sdk'
