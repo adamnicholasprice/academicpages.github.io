@@ -13,3 +13,4 @@ gem 'octopress', '~> 3.0.0.rc.15'
 gem 'rake'
 gem 'octopress-deploy'
 gem 'aws-sdk'
+gem "github-pages", group: :jekyll_plugins

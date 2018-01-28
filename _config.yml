@@ -8,7 +8,7 @@ description: Personal academic website for Adam Price.
 
 # Only use this if you are serving your site via Github Pages
 github:
-  url: "http://adamprice.com"
+  url: "adamnprice.com"
 
 header: yes
 header_sm: images/banner-small.jpg
