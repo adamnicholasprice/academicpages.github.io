@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "UIdaho, CHG"
 description: University of Idaho, Computational Hydrology Group
 ---

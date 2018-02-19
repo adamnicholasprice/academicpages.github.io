@@ -1,5 +1,4 @@
 ---
-layout: page
 title: UCSC Hydrogeology
 description: Current Research at UCSC
 ---

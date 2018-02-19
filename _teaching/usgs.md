@@ -1,8 +1,6 @@
 ---
-layout: page
 title: "USGS NRP"
 description: Hydrologic cycle at a national scale and tools for model evaluation and improvement.
-img: images/proj/
 ---
 <h2> Still working on this! Come back later!! </h2>
 
