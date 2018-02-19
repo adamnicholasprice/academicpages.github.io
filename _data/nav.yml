@@ -1,17 +1,17 @@
 - title: "home"
   href: "/"
 
-- title: "blog"
+- title: "News/Posts"
   href: "/blog/"
 
 - title: "projects"
   subcategories:
     - subtitle: "UCSC: Hydrogeology"
       subhref: "/projects/ucsc.html"
-    - subtitle: "USGS:Nat. Research Program"
-      subhref: "/projects/usgs.html"
     - subtitle: "UI:Compuational Hydrology"
       subhref: "/projects/chg.html"
+    - subtitle: "USGS:Nat. Research Program"
+      subhref: "/projects/usgs.html"
     - subtitle: "WSU: NW Archaeology Lab"
       subhref: "/projects/wsu.html"
     - subtitle: "Idaho Geological Survey"
@@ -30,3 +30,6 @@
       subhref: "https://websites.pmc.ucsc.edu/~afisher/"
     - subtitle: "UCSC: EPS"
       subhref: "https://eps.ucsc.edu"
+
+- title: "Contact"
+  href: /contact.html

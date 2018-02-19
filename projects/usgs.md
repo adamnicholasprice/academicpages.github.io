@@ -2,9 +2,16 @@
 layout: page
 title: "USGS NRP"
 description: Hydrologic cycle at a national scale and tools for model evaluation and improvement.
-img: /assets/img/usgsconus.tiff
+img: images/proj/
 ---
+<h2> Still working on this! Come back later!! </h2>
 
+<!---
 <h3> USGS National Research Program: Modeling of Watershed Systems Group</h3>
 During the summer of 2017, I was nominated and received the [NAGT/USGS summer internship](https://nagt.org/nagt/students/usgs_field.html) which took place at the Denver Federal Center in Lakewood, Colorado. I completed investigations of representing the hydrologic cycle at a national scale as well as tools for model evaluation and improvement. I collected, processed, and identified CONUS scale recharge datasets that would better inform the National Hydrologic Model, specifically [Precipitation-Runoff Modeling System](https://wwwbrr.cr.usgs.gov/projects/SW_MoWS/PRMS.html)
-<div><img class="three" src="{{ project.img }}/assets/img/usgsconus.tiff" alt="" title="example image"/> </div>
+--->
+
+<figure>
+  <img align="middle" width="800" src="proj/usgsconus.tiff">
+  <figcaption>CONUS comparison of regional vs CONUS scale groundwater recharge models</figcaption>
+</figure>
