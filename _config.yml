@@ -7,16 +7,17 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Adam N. Price, Ph.D. Student"
+title                    : "Adam N. Price, Ph.D. Candidate"
 title_separator          : "-"
 name                     : &name "Adam N. Price"
 description              : &description "personal description"
 url                      : https://adamnicholasprice.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+# url                      : localhost:4000 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "adamnicholasprice.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
+words_per_minute         : 200
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -83,7 +84,7 @@ author:
   bio              : #"Ph.D. Student"
   location         : "Santa Cruz, California"
   employer         :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=2kpMwYAAAAAJ"
   email            : "adamprice@ucsc.edu"
   uri              :
   bitbucket        :
@@ -169,18 +170,21 @@ kramdown:
 
 # Collections
 collections:
+  # research:
+  #   output: true
+  #   permalink: /:collection/:path/
+  pastresearch:
+    output: true
+    permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+  # portfolio:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # talks:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # Defaults
@@ -203,19 +207,28 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _research
+  # - scope:
+  #     path: ""
+  #     type: research
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comments: true
+  # _research
   - scope:
       path: ""
-      type: teaching
+      type: pastresearch
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _teaching
   - scope:
       path: ""
-      type: publications
+      type: teaching
     values:
       layout: single
       author_profile: true

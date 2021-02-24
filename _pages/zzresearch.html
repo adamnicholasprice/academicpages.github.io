@@ -1,0 +1,18 @@
+---
+layout: archive
+title: "Research"
+author_profile: true
+---
+
+{% include base_path %}
+
+{% for post in site.research reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
+<br>
+<br>
+<br>
+<h1> Past Research </h1>
+{% for post in site.pastresearch reversed %}
+  {% include archive-single.html %}
+{% endfor %}

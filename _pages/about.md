@@ -1,28 +1,38 @@
 ---
 permalink: /
-title: 
+title:
+layout: archive
 excerpt: "About me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
+<h1> Bio </h1>
 
-I am a Ph.D. Student in the
+I am a **hydrogeologist** and a Ph.D. candidate in the
   <a href="https://eps.ucsc.edu"> Earth and Planetary Sciences </a>
-  department at the University of
-  California, Santa Cruz with a focus (and passion) on Hydrogeology.
-    I conduct research in
-    <a href="https://websites.pmc.ucsc.edu/%7Eafisher/">Dr.
-      Andrew Fisher's Hydrogeology Lab</a>,
-      where I investigate hydrothermal
-      systems in many different locals from marine, terrestrial, and extra-terrestrial!
-    My research interests include geothermal heat flux in porous
-    and fractured media, use of analytical mathematics to solve complex hydrologic
-    issues, and implementation of near-surface geophysical techniques
-    to better inform hydrologic models.
+  department at the University of California, Santa Cruz,
+  interested in making discoveries of the hydro(geo)logical world through
+  the combined use of analytical mathematics, numerical simulation, statistical inference,
+  and machine learning methods.
+
+I conduct research in both **<a href="https://websites.pmc.ucsc.edu/%7Eafisher/">Dr.
+      Andrew Fisher's Hydrogeology Lab</a>**, where I investigate the coupled fluxes of
+      heat and fluid through crustal aquifers in marine, terrestrial, and extra-terrestrial
+      settings, and also with **<a href="http://mzimmer.weebly.com/">
+      Dr. Margaret Zimmer's Watershed Hydrology Lab</a>** gaining a better understanding
+      of drying processes of non-perennial rivers.
+
+If you are interested in collaboration, please
+  <a href="mailto:adnprice@ucsc.edu">contact me </a> !
 
 
-  Please take a look through my site and feel free to
-  <a href="mailto:adnprice@ucsc.edu">contact me </a>
-  if you have any questions or would be interested in working together!
+
+<br>
+<h1> Recent News </h1>
+
+
+<!-- {% for post in site.posts %}
+  {% include archive-single-talk-cv.html %}
+{% endfor %} -->
