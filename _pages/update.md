@@ -1,8 +1,6 @@
 ---
 layout: archive
-title:
+title: "Updating this page!"
 permalink: /update
 author_profile: true
 ---
-
-# Updating this page!
